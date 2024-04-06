@@ -1,0 +1,131 @@
+div,p,a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    /* border: 1px solid; */
+    height: 120px;
+    display: flex;
+    margin-top: -10px;
+    margin-left: -7px;
+    position: sticky;
+    top: 0;
+    background-color:rgb(243, 240, 240);
+    z-index: 1;
+}
+.navbar{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    width: 73vw;
+    font-size: 23px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+.navbar p{
+    flex-grow: 1;
+    text-align: center;
+    transition: all ease 0.2s;
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+}
+
+.navbar p:hover{
+background-color: rgb(201, 201, 200);
+border-radius: 3px;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+article{
+    display: flex;
+}
+.left{
+    /* border: 1px solid; */
+    width: 45vw;
+    height: 500px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+.right{
+    /* border: 1px solid; */
+    width: 45vw;
+    height: 500px;
+}
+.yes{
+   border-radius: 5px;
+   width: 300px;
+   height: 60px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+   color: white;
+   margin-left: 10px;
+   background-color: #FF6D00;
+   filter:contrast(2.8);
+   font-size: 23px;
+   cursor: pointer;
+}
+.middle{
+    /* border: 1px solid; */
+    width: 50vw;
+    height: 850px;
+    margin-left: 22vw;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+}
+li{
+    font-size: 23px;
+    align-content: space-between; 
+    margin: 10px;
+}
+.mid{
+    /* border: 1px solid; */
+    height: 120px;
+    width: 60vw;
+text-align: center;
+margin-left: 17vw;
+margin-top: 15px;
+}
+.founder{
+    /* border: 1px solid; */
+    width: 50vw;
+    height: 950px;
+    margin-left: 22vw;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+
+}
+.founder h1{
+   margin-top: -5px;
+}
+.founder h2{
+    margin-top: -10px;
+    text-decoration: underline;
+    color: rgb(1, 190, 1);
+ }
+ /* div{
+    border: 1px solid;
+ } */
+ .block{
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    padding-top: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: rgb(183, 184, 184);
+ }
+ .block p{
+    color: rgb(119, 119, 119);
+    padding: 0px 20px 20px 5px;
+ }
+ a{
+    text-decoration: none;
+ }
